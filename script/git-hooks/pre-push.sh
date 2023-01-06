@@ -22,11 +22,9 @@ current_branch=$(git rev-parse --abbrev-ref HEAD)
 pr_base_url="https://github.com/${org}/${project}/compare/${parent_branch}...${current_branch}"
 pr_base_options="quick_pull=1&assignees=${github_id}"
 
-echo "$git_parent_branch"
-
-echo "$author_email"
-echo "快速建立 Pull Request："
+echo "\r\n快速建立 Pull Request："
 echo "[ Bugfix ]: $pr_base_url?$pr_base_options&template=template_bugfix.md&labels=Bugfix"
-echo "[ Crawler ]: $pr_base_url?$pr_base_options&template=template_crawler.md&labels=Feature"
 echo "[ Feature ]: $pr_base_url?$pr_base_options&template=template_feature.md&labels=Feature"
+echo "[ Crawler ]: $pr_base_url?$pr_base_options&template=template_crawler.md&labels=Feature"
 echo "[ Experiment ]: $pr_base_url?$pr_base_options&template=template_experiment.md&labels=Experiment"
+echo "\r\n"
