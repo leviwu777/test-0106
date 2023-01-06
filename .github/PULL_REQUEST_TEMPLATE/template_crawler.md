@@ -1,14 +1,14 @@
 ### Ticket 連結
 
-### Feature spec 連結
+### Spec 連結
+
+- Feature Spec：
 
 ### PR 說明
 
 ---
 
-### 爬蟲 PR
-
-#### checklist
+#### 爬蟲 Checklist
 - [ ] 控制抓取頻率與數量
 - [ ] 來源格式檢查
 - [ ] 保存跟數據計算有關的原始檔

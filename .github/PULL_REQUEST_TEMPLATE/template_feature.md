@@ -1,8 +1,9 @@
 ### Ticket 連結
 
-### Feature spec 連結
+### Spec 連結
 
-### UI spec 連結
+- Feature Spec：
+- UI Spec：
 
 ### PR 說明
 
